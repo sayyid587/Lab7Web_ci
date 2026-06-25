@@ -1,0 +1,39 @@
+CRITICAL - 2026-03-12 03:57:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/tambah.php"
+[Method: GET, Route: artikel/tambah]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/tambah.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/tambah', [], true)
+ 3 APPPATH\Controllers\Artikel.php(41): view('artikel/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-03-12 04:03:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/tambah.php"
+[Method: GET, Route: artikel/tambah]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/tambah.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/tambah', [], true)
+ 3 APPPATH\Controllers\Artikel.php(41): view('artikel/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-03-12 04:12:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/detail.php"
+[Method: GET, Route: artikel/detail/artikel-kedua]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/detail.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 3 APPPATH\Controllers\Artikel.php(36): view('artikel/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->detail('artikel-kedua')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')

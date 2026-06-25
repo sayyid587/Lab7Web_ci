@@ -1,0 +1,334 @@
+CRITICAL - 2026-04-04 06:34:14 --> ErrorException: Undefined variable $row
+[Method: GET, Route: artikel/artikel-pertama]
+in APPPATH\Views\artikel\detail.php on line 9.
+ 1 APPPATH\Views\artikel\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 5 APPPATH\Controllers\Artikel.php(50): view('artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->view('artikel-pertama')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:39:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/template.php"
+[Method: GET, Route: artikel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/template.php')
+ 2 SYSTEMPATH\View\View.php(254): CodeIgniter\View\View->render('template/template', [], true)
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/index', [], true)
+ 4 APPPATH\Controllers\Artikel.php(19): view('artikel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:39:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/template.php"
+[Method: GET, Route: artikel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/template.php')
+ 2 SYSTEMPATH\View\View.php(254): CodeIgniter\View\View->render('template/template', [], true)
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/index', [], true)
+ 4 APPPATH\Controllers\Artikel.php(19): view('artikel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:39:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/template.php"
+[Method: GET, Route: artikel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/template.php')
+ 2 SYSTEMPATH\View\View.php(254): CodeIgniter\View\View->render('template/template', [], true)
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/index', [], true)
+ 4 APPPATH\Controllers\Artikel.php(19): view('artikel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:43:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/template.php"
+[Method: GET, Route: artikel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/template.php')
+ 2 SYSTEMPATH\View\View.php(254): CodeIgniter\View\View->render('template/template', [], true)
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/index', [], true)
+ 4 APPPATH\Controllers\Artikel.php(19): view('artikel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:51:36 --> ErrorException: Undefined variable $row
+[Method: GET, Route: artikel/artikel-pertama]
+in APPPATH\Views\artikel\detail.php on line 9.
+ 1 APPPATH\Views\artikel\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 5 APPPATH\Controllers\Artikel.php(50): view('artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->view('artikel-pertama')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:54:30 --> ErrorException: Undefined variable $row
+[Method: GET, Route: artikel/artikel-pertama]
+in APPPATH\Views\artikel\detail.php on line 9.
+ 1 APPPATH\Views\artikel\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 5 APPPATH\Controllers\Artikel.php(50): view('artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->view('artikel-pertama')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:56:23 --> ErrorException: Undefined variable $row
+[Method: GET, Route: artikel/artikel-pertama]
+in APPPATH\Views\artikel\detail.php on line 6.
+ 1 APPPATH\Views\artikel\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 5 APPPATH\Controllers\Artikel.php(50): view('artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->view('artikel-pertama')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:56:33 --> ErrorException: Undefined variable $row
+[Method: GET, Route: artikel/artikel-kedua]
+in APPPATH\Views\artikel\detail.php on line 6.
+ 1 APPPATH\Views\artikel\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 5 APPPATH\Controllers\Artikel.php(50): view('artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->view('artikel-kedua')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 06:56:53 --> ErrorException: Undefined variable $row
+[Method: GET, Route: artikel/artikel-kedua]
+in APPPATH\Views\artikel\detail.php on line 6.
+ 1 APPPATH\Views\artikel\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 5 APPPATH\Controllers\Artikel.php(50): view('artikel/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->view('artikel-kedua')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 07:00:35 --> Error: Undefined constant "cite_start"
+[Method: GET, Route: artikel/artikel-kedua]
+in APPPATH\Views\artikel\detail.php on line 5.
+ 1 SYSTEMPATH\View\View.php(238): include()
+ 2 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 4 APPPATH\Controllers\Artikel.php(50): view('artikel/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->view('artikel-kedua')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 07:04:19 --> Error: Undefined constant "cite_start"
+[Method: GET, Route: artikel/artikel-kedua]
+in APPPATH\Views\artikel\detail.php on line 5.
+ 1 SYSTEMPATH\View\View.php(238): include()
+ 2 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/detail', [], true)
+ 4 APPPATH\Controllers\Artikel.php(50): view('artikel/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->view('artikel-kedua')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 07:28:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/admin_header.php"
+[Method: GET, Route: admin/artikel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_header.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('template/admin_header', null, true)
+ 3 APPPATH\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_header')
+ 4 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel\\admin_index.php')
+ 5 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 7 APPPATH\Controllers\Artikel.php(58): view('artikel/admin_index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->admin_index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 07:32:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/edit.php"
+[Method: GET, Route: admin/artikel/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(88): view('artikel/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 07:48:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/edit.php"
+[Method: GET, Route: admin/artikel/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(88): view('artikel/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 07:49:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/edit.php"
+[Method: GET, Route: admin/artikel/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(88): view('artikel/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 08:24:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/edit.php"
+[Method: GET, Route: admin/artikel/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(89): view('artikel/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 08:24:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/from_add.php"
+[Method: GET, Route: admin/artikel/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/from_add.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/from_add', [], true)
+ 3 APPPATH\Controllers\Artikel.php(132): view('artikel/from_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 08:54:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/form_edit.php"
+[Method: GET, Route: admin/artikel/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/form_edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/form_edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(141): view('artikel/form_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 08:54:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/form_edit.php"
+[Method: GET, Route: admin/artikel/edit/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/form_edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/form_edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(141): view('artikel/form_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 08:54:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/form_edit.php"
+[Method: GET, Route: admin/artikel/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/form_edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/form_edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(141): view('artikel/form_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 09:00:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/form_edit.php"
+[Method: GET, Route: admin/artikel/edit/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/form_edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/form_edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(141): view('artikel/form_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 09:01:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/form_edit.php"
+[Method: GET, Route: admin/artikel/edit/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/form_edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/form_edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(141): view('artikel/form_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-04 09:01:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "artikel/form_edit.php"
+[Method: GET, Route: admin/artikel/edit/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/form_edit.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel/form_edit', [], true)
+ 3 APPPATH\Controllers\Artikel.php(141): view('artikel/form_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Artikel->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
